@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
   
   s.source = { :git => "https://github.com/orbismobile/OMTools.git", :tag => "#{s.version}"}
-  s.source_files = "OMTools/**/*.{swift}" 
+s.source_files = 'Source/*.swift' 
   s.framework = "UIKit"
   s.requires_arc = true
 
