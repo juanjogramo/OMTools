@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+public class StringExtension {
+    
+    public init() {
+        
+    }
+    
+    public func sayHello() {
+        print("Hello")
+    }
+}
