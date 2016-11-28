@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.resources = "OMTools/**/*.{png,jpeg,jpg,storyboard,xib}"
+  #s.resources = "OMTools/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 
 
