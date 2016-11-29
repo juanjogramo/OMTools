@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "OMTools"
   s.summary      = "This pod spec is for OMTools"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.description  = "OMTools is a tool for ios basic functions in swift"
   s.homepage     = "https://github.com/orbismobile/OMTools"
   s.license = { :type => "MIT", :file => "LICENSE" }
