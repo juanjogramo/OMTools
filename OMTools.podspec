@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
 
   s.source = { :git => "https://github.com/orbismobile/OMTools.git", :tag => s.version }
-  s.source_files = 'OMTools/**/*'
+  s.source_files = 'Source/**/*'
   s.framework = "UIKit"
   s.requires_arc = true
 

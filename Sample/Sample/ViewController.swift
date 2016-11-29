@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let newExtension = StringExtension()
         newExtension.sayHello()
+        
+        let otherExtension = ArrayExtension()
+        otherExtension.sayHelloArray()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
