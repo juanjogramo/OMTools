@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "OMTools"
   s.summary      = "This pod spec is for OMTools"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.description  = "OMTools is a tool for ios basic functions in swift"
   s.homepage     = "https://github.com/orbismobile/OMTools"
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
   
+
   s.source = { :git => "https://github.com/orbismobile/OMTools.git", :tag => s.version }
   s.source_files = 'OMTools/**/*'
   s.framework = "UIKit"
