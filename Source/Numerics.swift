@@ -1,5 +1,5 @@
 //
-//  ArrayExtension.swift
+//  Numerics.swift
 //  OMTools
 //
 //  Created by Luis Perez on 29/11/16.
@@ -8,7 +8,8 @@
 
 import Foundation
 
-public class ArrayExtension {
+extension Int {
+    
     
     
 }
