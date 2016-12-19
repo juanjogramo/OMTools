@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         let otherStringArray = testStringArray.inverse()
         print("test string array",otherStringArray)
         
+        // Test reverse String
+        let myString = "Werik"
+        print("Test reverse String",String(myString.characters.reversed()))
+        
         
     }
 
