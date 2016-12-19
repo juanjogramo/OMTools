@@ -16,8 +16,10 @@ class ViewController: UIViewController {
         let dniString = "46823388"
         _ = dniString.validate(documentType: .dni)
         
-        
-        
+        // Test Array
+        let testArray = [1,2,3,4,5]
+        let otherArray = testArray.inverse()
+        print("test array",otherArray)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
