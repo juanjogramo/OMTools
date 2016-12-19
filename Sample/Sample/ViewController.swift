@@ -13,13 +13,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let dniString = "46823388"
-        _ = dniString.validate(documentType: .dni)
+        
+        // Test int Array
+        let testArray = [1,2,3,4,5]
+        let otherArray = testArray.inverse()
+        print("test array",otherArray)
+        
+        // Test String Array
+        let testStringArray = ["uno","dos","tres","cuatro","cinco"]
+        let otherStringArray = testStringArray.inverse()
+        print("test string array",otherStringArray)
         
         
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
