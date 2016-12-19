@@ -30,22 +30,7 @@ extension String {
             return false
         }
     }
-    /*
-    public func inverse() -> String{
-        
-        var arrayString:[String] = []
-        let newString = self.characters.reve
-        let charactersCount = self.characters.count - 1
-        var count = 0
-        for item in newString{
-            
-            arrayString[charactersCount - count] = item(_:)
-            count += 1
-        }
     
-        return self
-    }
-    */
     private func evaluateRegex(pattern: String) -> Bool {
         
         do{
