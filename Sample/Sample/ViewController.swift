@@ -16,12 +16,16 @@ class ViewController: UIViewController {
         let dniString = "46823388"
         _ = dniString.validate(documentType: .dni)
         
-        // Test Array
+        // Test int Array
         let testArray = [1,2,3,4,5]
         let otherArray = testArray.inverse()
         print("test array",otherArray)
         
-        // Do any additional setup after loading the view, typically from a nib.
+        // Test String Array
+        let testStringArray = ["uno","dos","tres","cuatro","cinco"]
+        let otherStringArray = testStringArray.inverse()
+        print("test string array",otherStringArray)
+        
     }
 
     override func didReceiveMemoryWarning() {
