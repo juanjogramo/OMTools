@@ -15,9 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let dniString = "46823388"
         _ = dniString.validate(documentType: .dni)
-        
-        
-        
+        let mehArray = [1,2,3,4,5]
+        let otherMehArray = mehArray.inverse()
+        print("test array",otherMehArray)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
