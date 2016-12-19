@@ -13,8 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let dniString = "46823388"
-        _ = dniString.validate(documentType: .dni)
         
         // Test int Array
         let testArray = [1,2,3,4,5]
@@ -25,6 +23,7 @@ class ViewController: UIViewController {
         let testStringArray = ["uno","dos","tres","cuatro","cinco"]
         let otherStringArray = testStringArray.inverse()
         print("test string array",otherStringArray)
+        
         
     }
 
